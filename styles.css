@@ -1,0 +1,257 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 5px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #3498db;
+}
+main {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+footer p {
+    margin: 5px 0;
+}
+.content ul {
+    list-style: none;
+    line-height: 1.8;
+}
+.content ul li {
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.HistoryDaLat span {
+    font-weight: bold;
+    font-size: 28px;
+}
+.content img {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    line-height: 0;
+}
+.HistoryDaLat {
+    display: flex;
+    align-items: center;
+}
+.content {
+    background: #beb8b8;
+    padding: 40px 20px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+#guide-link {
+    font-size: 16px;
+    color: #f6f8fa;
+    text-decoration: none;
+}
+.content1 h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: black;
+    text-align: center;
+}
+.articless {
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+}
+.page {
+    text-decoration: none;
+}
+.content1 {
+    margin-top: 36px;
+    background: #beb8b8;
+    padding: 40px 20px;
+    border-radius: 8px;
+    gap: 330px;
+}
+.article {
+    background-color: white;
+    width: 650px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.article img {
+    width: 100%;
+    height: 480px;
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+.article:hover img{
+    transform: scale(1.02);
+}
+.arrange {
+    display:flex;
+    gap: 120px;
+}
+.content2 {
+    margin-top: 36px;
+    background: #beb8b8;
+    padding: 40px 20px;
+    border-radius: 8px;
+    gap: 330px;
+}
+.content2 h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: black;
+    text-align: center;
+}
+.arrange1 {
+    display: flex;
+    gap: 460px;
+}
+.content3 {
+    margin-top: 36px;
+    background: #beb8b8;
+    padding: 40px 20px;
+    border-radius: 8px;
+    gap: 330px;
+}
+.content3 h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: black;
+    text-align: center;
+}
+.btn-xem-them {
+    display: inline-block; 
+    text-decoration: none;
+    background-color: #1e5a83; 
+    color: white;             
+    padding: 10px 24px;       
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;       
+    transition: all 0.3s ease;
+}
+.btn-xem-them:hover {
+    background-color: #2074ac; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.TableTitleFirst {
+    background-color: #1A365D;
+    color: white;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 17px;
+    color: black;
+}
+.TableTitle {
+    font-size: 20px;
+}
+.content4 {
+    padding: 10px 20px;
+    gap: 330px;
+}
+.content4 h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: #2c3e50;
+    text-align: left;
+}
+.TableTitleSecond {
+    background-color: #1A365D;
+    color: white;
+    font-size: 20px;
+}
+.table {
+    padding-bottom: 60px;
+}
+.content5 {
+    margin-top: 36px;
+    background: #757070;
+    padding: 40px 20px;
+    border-radius: 8px;
+    gap: 330px;
+}
+.content5 h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: white;
+    text-align: left;
+}
+.Target {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+.Team {
+    color: #F1C40F;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
